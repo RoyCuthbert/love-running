@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
-
-.oswald-<uniquifier> {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-
-.lato-light {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-}
-
 /* Asterisk wildcard selector to overide default styles added by the browser */
 * {
     padding: 0;
@@ -34,6 +20,10 @@ body {
 /* Header */
 header {
     background-color: lightcoral;
+}
+
+h1{
+    font-family:'oswald', sans-serif;
 }
 
 /* Main Content */
