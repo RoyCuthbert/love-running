@@ -27,8 +27,8 @@ h3 {
     color: #252525;
 }
 
-.hidden-heading{
-    display:none;
+.hidden-heading {
+    display: none;
 }
 
 /* Header */
@@ -168,12 +168,12 @@ hr {
 #times {
     background: url("../images/dublin-city.webp") no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
 }
 
-#times div{
-    color:#fafafa;
+#times div {
+    color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
     text-align: center;
@@ -182,7 +182,7 @@ hr {
     flex-basis: 200px;
     flex-grow: 1;
     /* Creates a grid of meetup time divs over the background image */
-    border:2px solid white;
+    border: 2px solid white;
 }
 
 #times h3 {
@@ -191,17 +191,17 @@ hr {
 }
 
 /* Gallery page */
-#photos img{
-    width:100%;
+#photos img {
+    width: 100%;
     line-height: 1em;
 }
 
-#photos{
+#photos {
     line-height: 0;
 }
 
 /* Sign up page */
-#signup{
+#signup {
     background-image: url(../images/signup-image.webp);
     background-size: cover;
     background-position: 75%;
@@ -209,33 +209,33 @@ hr {
     padding: 20px 10% 0 10%;
 }
 
-#signup h2{
-    color:#fafafa;
-    margin-bottom:20px;
+#signup h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
 }
 
-#signup-form{
-    color:#ffffff;
+#signup-form {
+    color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
-.text-input{
-    background:transparent;
+.text-input {
+    background: transparent;
     color: #fafafa;
     border: 1px solid #fafafa;
     border-radius: 2px;
-    width:100%;
-    height:25px;
-    padding:0 5px;
-    margin-top:5px;
-    margin-bottom:20px;
+    width: 100%;
+    height: 25px;
+    padding: 0 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .radio-buttons {
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    width:100%;
+    width: 100%;
 }
 
 .join-button {
@@ -243,7 +243,7 @@ hr {
     background-color: #454b1b;
     color: #fafafa;
     font-size: 100%;
-    margin-top:20px;
+    margin-top: 20px;
     padding: 15px 32px 15px 32px;
 }
 
@@ -273,6 +273,7 @@ hr {
 
 /* Media query:tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
+
     /* Header */
     nav {
         display: block;
@@ -332,28 +333,28 @@ hr {
     }
 
     /* Gallery */
-    #photos{
+    #photos {
         column-count: 3;
     }
 
     /* Sign up page */
-    #signup{
-        background-position:center;
+    #signup {
+        background-position: center;
         position: relative;
     }
 
-    #signup-form{
-        max-width:400px;
+    #signup-form {
+        max-width: 400px;
         position: absolute;
-        top:150px;
-        left:10%;
+        top: 150px;
+        left: 10%;
     }
-    
-    .text-input:hover{
+
+    .text-input:hover {
         border-color: #f16c6b;
     }
 
-    .join-button:hover{
+    .join-button:hover {
         background-color: #fafafa;
         color: #454b1b;
     }
@@ -369,8 +370,8 @@ hr {
     }
 
     /* Gallery */
-    #photos{
-       column-count: 4; 
+    #photos {
+        column-count: 4;
     }
 }
 
